@@ -21,7 +21,7 @@ Aplikasi berbasis **C++** yang mengimplementasikan **Algoritma Backtracking** un
 
 ---
 
-## Contoh Output Program
+Contoh Output Program
 ==================================================
    SISTEM OPTIMASI PENEMPATAN BARANG GUDANG
 ==================================================
