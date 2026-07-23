@@ -44,36 +44,30 @@ Aplikasi berbasis **C++** yang mengimplementasikan **Algoritma Backtracking** un
 
 ## 📁 Struktur Direktori Proyek
 
+```text
 Algoritma-Backtracking---Penempatan-Barang-Gudang-main/
 │
 ├── penempatan_barang.cpp    # Kode sumber utama C++ (Algoritma & UI CLI)[cite: 2]
 └── README.md                # Dokumentasi proyek
-
----
-
-## 🚀 Cara Menjalankan Proyek
-
-### 1. Prasyarat
-Pastikan komputer Anda telah terpasang *compiler* C++ (seperti `g++`).
-
-### 2. Langkah Kompilasi & Eksekusi
-
-1. Buka **Terminal** atau **Command Prompt**, lalu masuk ke direktori proyek:
-   cd Algoritma-Backtracking---Penempatan-Barang-Gudang-main
-
-2. Kompilasi kode C++:
-   g++ penempatan_barang.cpp -o penempatan_barang
-
-3. Jalankan program yang telah dikompilasi:
-   - **Linux / macOS:**
-     ./penempatan_barang
-   - **Windows:**
-     penempatan_barang.exe
-
----
-
-## 🧠 Penjelasan Alur & Logika Program
-
+🚀 Cara Menjalankan Proyek
+1. Prasyarat
+Pastikan komputer Anda telah terpasang compiler C++ (seperti g++).
+2. Langkah Kompilasi & Eksekusi
+Buka Terminal atau Command Prompt, lalu masuk ke direktori proyek:
+Bash
+cd Algoritma-Backtracking---Penempatan-Barang-Gudang-main
+Kompilasi kode C++:
+Bash
+g++ penempatan_barang.cpp -o penempatan_barang
+Jalankan program yang telah dikompilasi:
+Linux / macOS:
+Bash
+./penempatan_barang
+Windows:
+DOS
+penempatan_barang.exe
+🧠 Penjelasan Alur & Logika Program
+Plaintext
  [ Start ] ➔ Input Data Barang & Kapasitas Gudang
     │
     ▼
@@ -91,15 +85,10 @@ Pastikan komputer Anda telah terpasang *compiler* C++ (seperti `g++`).
     │     │     └── TIDAK ➔ Coba Posisi Berikutnya
     │     │
     │     └── [ Jika Gagal ] ➔ Hapus Barang (Backtrack) & Kembali ke Posisi Sebelumnya
-
----
-
-## 💻 Contoh Output Program
-
+💻 Contoh Output Program
 Berikut adalah tampilan asli hasil eksekusi program penempatan barang di gudang pada layar terminal:
-
-### Scenario 1: Penempatan Barang Berhasil (Solusi Ditemukan)
-
+Scenario 1: Penempatan Barang Berhasil (Solusi Ditemukan)
+Plaintext
 ===================================================================
         SISTEM OPTIMASI PENEMPATAN BARANG GUDANG (BACKTRACKING)
 ===================================================================
@@ -131,9 +120,8 @@ TATA LETAK / MATRIKS PENEMPATAN BARANG GUDANG:
 ===================================================================
 STATUS: [SUCCESS] Seluruh barang berhasil diletakkan secara optimal!
 ===================================================================
-
-### Scenario 2: Penempatan Gagal (Kapasitas Gudang Tidak Cukup)
-
+Scenario 2: Penempatan Gagal (Kapasitas Gudang Tidak Cukup)
+Plaintext
 ===================================================================
         SISTEM OPTIMASI PENEMPATAN BARANG GUDANG (BACKTRACKING)
 ===================================================================
@@ -151,9 +139,5 @@ STATUS: [SUCCESS] Seluruh barang berhasil diletakkan secara optimal!
 -------------------------------------------------------------------
 STATUS: [FAILED] Tidak ada kombinasi penempatan yang memenuhi batasan!
 ===================================================================
-
----
-
-## 🤝 Kontribusi & Lisensi
-
-Proyek ini dikembangkan untuk tujuan akademis, analisis kompleksitas algoritma, dan pemenuhan tugas Struktur Data & Algoritma. Silakan *fork*, pelajari kodenya, dan kirimkan *pull request* jika ingin melakukan pengoptimalan kode!
+🤝 Kontribusi & Lisensi
+Proyek ini dikembangkan untuk tujuan akademis, analisis kompleksitas algoritma, dan pemenuhan tugas Struktur Data & Algoritma. Silakan fork, pelajari kodenya, dan kirimkan pull request jika ingin melakukan pengoptimalan kode!
