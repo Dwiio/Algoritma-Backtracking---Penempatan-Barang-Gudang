@@ -4,17 +4,6 @@ Aplikasi berbasis **C++** yang mengimplementasikan **Algoritma Backtracking** un
 
 ---
 
-## 📑 Daftar Isi
-- [Tentang Algoritma](#-tentang-algoritma-backtracking)
-- [Fitur Utama](#-fitur-utama)
-- [Teknologi & Peralatan](#-teknologi--peralatan)
-- [Struktur Direktori Proyek](#-struktur-direktori-proyek)
-- [Cara Menjalankan Proyek](#-cara-menjalankan-proyek)
-- [Penjelasan Alur & Logika Program](#-penjelasan-alur--logika-program)
-- [Contoh Output Program](#-contoh-output-program)
-- [Kontribusi & Lisensi](#-kontribusi--lisensi)
-
----
 
 ## 💡 Tentang Algoritma Backtracking
 
